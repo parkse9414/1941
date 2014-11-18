@@ -62,4 +62,11 @@ function word(){
     textSize(36);
     textFont("Helvetica");
     text("1P  48400", 10, 40);
+
+}
+function word2(){
+    fill(0);
+    textSize(36);
+    textFont("Helvetica");
+    text("CREDIT:8", 10, 40);
 }
