@@ -55,5 +55,5 @@ function drawBairplane(x,y) {
 }
 
 function drawBairplane2(x,y) {
-    image(img5);
+    ellipse(50,50,50,50);
 }
