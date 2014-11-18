@@ -1,6 +1,8 @@
 var img;  
 var img3;  
 var count;
+var count2;
+
 
 function setup()
 {
@@ -8,8 +10,12 @@ function setup()
     img = loadImage("airplane.png");  
     img2 = loadImage("shield.png");
     img3 = loadImage("bg.png");
-    img4 = loadImage("Bairplane.jpg");
+    img4 = loadImage("Bairplane1.png");
+    img5 = loadImage("Bairplane2.png");
+    img6 = loadImage("Bairplane3.png");
     count=0;
+    count2=0;
+
 
 }
 
@@ -34,9 +40,19 @@ function draw()
      if(count>900){
     count=0;
 
+    //적 비행기2
+     drawBairplane(160,count2);
+     count2=count2+1/2;
+     if(count2>900){
+    count2=0;
+
+
 }
 
 
 function drawBairplane(x,y) {
     image(img4);
+}
+function drawBairplane2(x,y) {
+    image(img5);
 }
