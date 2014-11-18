@@ -52,7 +52,7 @@ function draw()
 
 
 function drawBairplane(x,y) {
-    image(img4);
+    image(img4,x,y);
 }
 
 function drawBairplane2(x,y) {
