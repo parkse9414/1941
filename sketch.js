@@ -47,6 +47,7 @@ function draw()
     count2=0;
     }*/
     word();
+    word2();
 }
 
 
