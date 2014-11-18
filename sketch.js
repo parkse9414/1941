@@ -40,12 +40,12 @@ function draw()
      if(count>900){
     count=0;
     }
-    /*//적 비행기2
-     drawBairplane2(30*0.8,count2);
+    //적 비행기2
+     drawBairplane2(30,count2);
      count2=count2+1;
      if(count2>900){
     count2=0;
-    }*/
+    }
     word();
     word2();
 }
@@ -55,9 +55,9 @@ function drawBairplane(x,y) {
     image(img4);
 }
 
-/*function drawBairplane2(x,y) {
+function drawBairplane2(x,y) {
     ellipse(50,50,50,50);
-}*/
+}
 function word(){
     fill(0);
     textSize(36);
