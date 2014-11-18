@@ -1,5 +1,6 @@
 var img;  
 var img3;  
+var y = 0;
 
 function setup()
 {
