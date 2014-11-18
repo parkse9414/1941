@@ -2,6 +2,7 @@ var img;
 var img3;  
 var count;
 var count2;
+var count3;
 
 
 function setup()
@@ -15,7 +16,7 @@ function setup()
     img6 = loadImage("Bairplane3.png");
     count=0;
     count2=0;
-
+    count3=0;
 
 }
 
@@ -46,6 +47,13 @@ function draw()
      if(count2>900){
     count2=0;
     }
+
+    //적 비행기3
+     drawBairplane3(600,count3*2);
+     count3=count3+1;
+     if(count3>900){
+    count3=0;
+    }
     word();
     word2();
 }
@@ -57,6 +65,10 @@ function drawBairplane(x,y) {
 
 function drawBairplane2(x,y) {
     image(img5,x,y);
+}
+
+function drawBairplane3(x,y) {
+    image(img6,x,y);
 }
 function word(){
     fill(0);
