@@ -17,13 +17,13 @@ function draw()
 
 
     //비행기
-    image(img, mouseX - 32, mouseY - 32);
+    image(img, mouseX - 76, mouseY - 62);
 
     //쉴드
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img2, mouseX + Math.cos(timing*4*PI)*50 - 8, 
-    mouseY + Math.sin(timing*4*PI)*50 - 8)
+    image(img2, mouseX + Math.cos(timing*4*PI)*50 - 15, 
+    mouseY + Math.sin(timing*4*PI)*50 - 14)
 
 
 
