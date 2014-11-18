@@ -61,5 +61,5 @@ function word(){
     fill(0);
     textSize(36);
     textFont("Helvetica");
-    text("Helvetica", 500, 600);
+    text("1P  48400", 10, 10);
 }
