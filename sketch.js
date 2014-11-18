@@ -1,6 +1,6 @@
 var img;  
 var img3;  
-var y = 0;
+var count;
 
 function setup()
 {
@@ -8,8 +8,8 @@ function setup()
     img = loadImage("airplane.png");  
     img2 = loadImage("shield.png");
     img3 = loadImage("bg.png");
-    img4 = loadImage()
-
+    img4 = loadImage("Bairplane.jpg");
+    count=0;
 
 }
 
@@ -28,12 +28,15 @@ function draw()
     mouseY + Math.sin(timing*4*PI)*100 - 14)
 
     //적 비행기
-     image(img2,0, y);
-  
-     y++;
-  if (y > height) {
-    y = 0; 
-  }
+
+    drawBairplane(30,count);
+     count=count+1;
+     if(count>900){
+    count=0;
+
+}
 
 
+function drawBairplane(x,y) {
+    image(img4);
 }
