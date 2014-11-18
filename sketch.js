@@ -39,7 +39,7 @@ function draw()
      count=count+1;
      if(count>900){
     count=0;
-
+ 
     //적 비행기2
      drawBairplane(160,count2);
      count2=count2+1/2;
