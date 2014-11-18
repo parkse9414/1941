@@ -46,7 +46,7 @@ function draw()
      if(count2>900){
     count2=0;
     }*/
-
+    word();
 }
 
 
@@ -57,3 +57,9 @@ function drawBairplane(x,y) {
 /*function drawBairplane2(x,y) {
     ellipse(50,50,50,50);
 }*/
+function word(){
+    fill(0);
+    textSize(36);
+    textFont("Helvetica");
+    text("Helvetica", 500, 600);
+}
