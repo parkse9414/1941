@@ -41,7 +41,7 @@ function draw()
     count=0;
     }
     //적 비행기2
-     drawBairplane2(30,count2);
+     drawBairplane2(600,count2*2);
      count2=count2+1;
      if(count2>900){
     count2=0;
@@ -56,7 +56,7 @@ function drawBairplane(x,y) {
 }
 
 function drawBairplane2(x,y) {
-    ellipse(50,50,50,50);
+    image(img5,x,y);
 }
 function word(){
     fill(0);
