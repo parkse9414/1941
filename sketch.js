@@ -49,7 +49,7 @@ function draw()
     }
 
     //적 비행기3
-     drawBairplane3(600,count3*2);
+     drawBairplane3(300,count3*0.8);
      count3=count3+1;
      if(count3>900){
     count3=0;
