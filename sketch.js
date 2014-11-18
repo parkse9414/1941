@@ -22,8 +22,8 @@ function draw()
     //쉴드
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
-    image(img2, mouseX + Math.cos(timing*4*PI)*50 - 15, 
-    mouseY + Math.sin(timing*4*PI)*50 - 14)
+    image(img2, mouseX + Math.cos(timing*4*PI)*150 - 15, 
+    mouseY + Math.sin(timing*4*PI)*150 - 14)
 
 
 
