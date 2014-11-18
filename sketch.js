@@ -7,6 +7,7 @@ function setup()
     img = loadImage("airplane.png");  
     img2 = loadImage("shield.png");
     img3 = loadImage("bg.png");
+    img4 = loadImage()
 
 
 }
@@ -25,6 +26,13 @@ function draw()
     image(img2, mouseX + Math.cos(timing*4*PI)*100 - 15, 
     mouseY + Math.sin(timing*4*PI)*100 - 14)
 
+    //적 비행기
+     image(img2,0, y);
+  
+     y++;
+  if (y > height) {
+    y = 0; 
+  }
 
 
 }
