@@ -69,5 +69,5 @@ function word2(){
     fill(0);
     textSize(36);
     textFont("Helvetica");
-    text("CREDIT:8", 750, 800);
+    text("CREDIT:8", 700, 830);
 }
