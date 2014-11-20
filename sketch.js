@@ -63,8 +63,7 @@ function draw()
     if(count3>900){
     count3=0;
     }
-    nofill();
-    noStroke();
+    fill(255,0,0);
     ellipse(500,count3*0.8,200,200);
 
     word();
@@ -116,7 +115,7 @@ function drawBairplane3(x,y) {
     image(img6,x,y);
 }
 
-function word(){\
+function word(){
     fill(0);
     textSize(36);
     textFont("Helvetica");
