@@ -116,8 +116,7 @@ function drawBairplane3(x,y) {
     image(img6,x,y);
 }
 
-function word(){
-    console.log("Score:"+score);
+function word(){\
     fill(0);
     textSize(36);
     textFont("Helvetica");
@@ -125,7 +124,6 @@ function word(){
 }
 
 function word2(){
-    console.log("Score:"+score);
     fill(0);
     textSize(36);
     textFont("Helvetica");
