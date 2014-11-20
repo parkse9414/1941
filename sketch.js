@@ -45,20 +45,20 @@ function draw()
 
     //적 비행기
 
-    drawBairplane(30,count);
+    drawBairplane(80,count);
     count=count+1;
     if(count>900){
     count=0;
     }
     //적 비행기2
-    drawBairplane2(600,count2*2);
+    drawBairplane2(650,count2*2);
     count2=count2+1;
     if(count2>900){
     count2=0;
     }
 
     //적 비행기3
-    drawBairplane3(300,count3*0.8);
+    drawBairplane3(400,count3*0.8);
     count3=count3+1;
     if(count3>900){
     count3=0;
@@ -78,17 +78,17 @@ fill(255,0,0,200);
         if(c[i]>0){
             c[i]+=5;
             ellipse(bX[i],bY[i]-c[i],5,10);
-            if(dist(30,count,bX[i],bY[i]-c[i])<100){
+            if(dist(80,count,bX[i],bY[i]-c[i])<100){
                 count =-500;
                 c[i]=0;
                 score +=20;
             }
-            if(dist(600,count2*2,bX[i],bY[i]-c[i])<100){
+            if(dist(650,count2*2,bX[i],bY[i]-c[i])<100){
                 count2 =-500;
                 c[i]=0;
                 score +=30;
             }
-            if(dist(300,count3*0.8,bX[i],bY[i]-c[i])<100){
+            if(dist(400,count3*0.8,bX[i],bY[i]-c[i])<100){
 
                 count3 =-500;
                 c[i]=0;
@@ -107,15 +107,15 @@ fill(255,0,0,200);
 
 
 function drawBairplane(x,y) {
-    image(img4,x,y);
+    image(img4,x-img4.width/2,y-img4.height/2);
 }
 
 function drawBairplane2(x,y) {
-    image(img5,x,y);
+ image(img5,x-img5.width/2,y-img5.height/2);
 }
 
 function drawBairplane3(x,y) {
-    image(img6,x,y);
+    image(img6,x-img6.width/2,y-img6.height/2);
 }
 
 function word(){
