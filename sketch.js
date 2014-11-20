@@ -122,7 +122,7 @@ function word(){
     fill(0);
     textSize(36);
     textFont("Helvetica");
-    text("1P  48400", 10, 40);
+    text("1P : "+score, 10, 40);
 }
 
 function word2(){
