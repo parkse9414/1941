@@ -74,7 +74,7 @@ function draw()
 
         if(c[i]>0){
             c[i]+=5;
-            drawBairplane3(bX[i],bY[i]-c[i],5,10);
+            ellipse(bX[i],bY[i]-c[i],5,10);
             if(dist(30,count,bX[i],bY[i]-c[i])<100){
                 count =-500;
                 c[i]=0;
