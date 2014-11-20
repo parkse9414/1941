@@ -64,7 +64,7 @@ function draw()
     count3=0;
     }
     fill(255,0,0);
-    // ellipse(300,count3*0.8,200,200);
+    ellipse(450,count3*0.8,200,200);
 
     word();
     word2();
