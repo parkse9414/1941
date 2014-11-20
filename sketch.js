@@ -63,7 +63,8 @@ function draw()
     if(count3>900){
     count3=0;
     }
-    fill(255,0,0);
+    nofill();
+    noStroke();
     ellipse(500,count3*0.8,200,200);
 
     word();
@@ -89,7 +90,7 @@ function draw()
 
                 count3 =-500;
                 c[i]=0;
-score +=120;
+                score +=120;
 
             }
 
@@ -116,6 +117,7 @@ function drawBairplane3(x,y) {
 }
 
 function word(){
+    console.log("Score:"+score);
     fill(0);
     textSize(36);
     textFont("Helvetica");
@@ -123,6 +125,7 @@ function word(){
 }
 
 function word2(){
+    console.log("Score:"+score);
     fill(0);
     textSize(36);
     textFont("Helvetica");
