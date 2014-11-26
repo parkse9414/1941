@@ -173,7 +173,7 @@ function mouseClicked(){
     if(bID >= bn){
         bID = 0;
     }
-function drawcrowd(){
+function drawcrowd(x,y){
     image(image7,x-img7.width/2,y-img7.height/2);
 }
 
