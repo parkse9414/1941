@@ -4,6 +4,7 @@ var count;
 var count2;
 var count3;
 var count4;
+var count5;
 
 var score=0;
 
@@ -26,10 +27,12 @@ function setup()
     img4 = loadImage("Bairplane1.png");
     img5 = loadImage("Bairplane2.png");
     img6 = loadImage("Bairplane3.png");
+    img7 = loadImage("crowd.png");
     count=0;
     count2=0;
     count3=0;
     count4=0;
+    count5=0;
     for(var  i = 0 ; i < bn ; i++){
         c[i]=0;
     }
@@ -45,7 +48,11 @@ function draw()
     if(count4>900){
         count4=0;
     }
-   
+   drawcrowd(400,count5);
+   count5=count5+1;
+    if(count5>900){
+        count5=0;
+    }
 
 
     
@@ -166,6 +173,9 @@ function mouseClicked(){
     if(bID >= bn){
         bID = 0;
     }
+function drawcrowd(){
+    image(image7,x-img7.width/2,y-img7.height/2);
+}
 
 }
 
