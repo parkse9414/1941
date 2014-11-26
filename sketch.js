@@ -3,7 +3,7 @@ var img3;
 var count;
 var count2;
 var count3;
-var count4;
+var count4=0;
 
 var score=0;
 
@@ -38,6 +38,7 @@ function draw()
     count4=count4+1;
     if(count4>100){
         count4=0;
+        
 
     }
 
