@@ -40,7 +40,7 @@ function draw()
     /*background(0);
 
     background(img3);*/
-    drawBackground(400,count4*4);
+    drawBackground(400,count4);
     count4=count4+1;
     if(count4>900){
         count4=0;
