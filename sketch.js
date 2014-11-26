@@ -183,7 +183,7 @@ function word(){
 }
 
 function word2(){
-    fill(0);
+    fill(255,255,0);
     textSize(36);
     textFont("Helvetica");
     text("CREDIT:8", 600, 870);
