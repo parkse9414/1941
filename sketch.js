@@ -176,10 +176,10 @@ function drawCroud(x,y){
 }
 
 function word(){
-    fill(0);
+    fill(255,255,0);
     textSize(36);
     textFont("Helvetica");
-    text(+score, 100, 40);
+    text(+score, 100, 70);
 }
 
 function word2(){
