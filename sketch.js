@@ -202,10 +202,10 @@ function mouseClicked(){
 
 }
 function drawGa(){
-    image(img8,10,870);
+    image(img8,10,770);
 }
 function drawPa(){
-    image(img9,10,100);
+    image(img9,10,20);
 }
 
 
