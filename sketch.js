@@ -32,11 +32,11 @@ function setup()
 
 function draw()
 {
-    background(0);
+    /*background(0);
 
-    background(img3);
+    background(img3);*/
     fill(0);
-    rect(0,count4*50,30,300);
+    rect(img3,0,count4*50,30,300);
     count4=count4+3;
     if(count4>900){
         count4=0;
