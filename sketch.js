@@ -174,7 +174,7 @@ function mouseClicked(){
         bID = 0;
     }
 function drawCrowd(x,y){
-    image(image7,x-img7.width/2,y-img7.height/2);
+    image(img7,x-img7.width/2,y-img7.height/2);
 }
 
 }
