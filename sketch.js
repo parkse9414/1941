@@ -38,7 +38,7 @@ function draw()
     fill(0);
     rect(0,count4+3,30,300);
     count4=count4+3;
-    if(count4>100){
+    if(count4>900){
         count4=0;
 
 
