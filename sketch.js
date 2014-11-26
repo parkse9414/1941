@@ -64,7 +64,11 @@ function draw()
         mouseY + Math.sin(timing*4*PI)*100 - 14)
 
     //적 비행기
-
+    drawBairplane(150,30+count*3);
+    count=count+1;
+    if(count>900){
+        count=0;
+    }
     drawBairplane(80,count*3);
     count=count+1;
     if(count>900){
