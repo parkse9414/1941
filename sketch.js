@@ -30,7 +30,7 @@ function setup()
     img6 = loadImage("Bairplane3.png");
     img7 = loadImage("crowd.png");
     img8 = loadImage("g.png");
-
+    img9 = loadImage("1p.png");
     count=0;
     count2=0;
     count3=0;
@@ -110,7 +110,7 @@ function draw()
     word();
     word2();
     drawG();
-    
+    drawP();
     fill(255,255,0);
     for(var i = 0 ; i < bn ; i++){
 
@@ -201,8 +201,12 @@ function mouseClicked(){
 
 }
 function drawG(){
-    image(img8,x-img8.width/2,870);
+    image(img8,10,870);
 }
+function drawP(){
+    image(img9,10,70);
+}
+
 
 function dist(bx,by,ex,ey){
     var d;
