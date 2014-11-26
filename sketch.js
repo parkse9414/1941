@@ -205,7 +205,7 @@ function drawGa(){
     image(img8,10,100);
 }
 function drawPa(){
-    image(img9);
+    image(img9,10,870);
 }
 
 
