@@ -5,6 +5,7 @@ var count2;
 var count3;
 var count4;
 var count5;
+var count6;
 
 var score=0;
 
@@ -33,6 +34,7 @@ function setup()
     count3=0;
     count4=0;
     count5=0;
+    count6=0;
     for(var  i = 0 ; i < bn ; i++){
         c[i]=0;
     }
@@ -87,6 +89,13 @@ function draw()
     if(count3>900){
         count3=0;
     }
+    
+    //적 비행기4
+    drawBairplane4(300,count6*2);
+    count6=count6+1;
+    if(count6>900){
+        count6=0;
+    }
     noStroke();
     noFill();
     ellipse(80,count,200,200);
@@ -122,6 +131,13 @@ function draw()
                 score +=120;
 
             }
+            if(dist(400,count6*2,bX[i],bY[i]-c[i])<100){
+
+                count6 =-500;
+                c[i]=0;
+                score +=120;
+
+            }
 
         }
         if(bY[i]-c[i]<0){
@@ -147,6 +163,9 @@ function drawBairplane2(x,y) {
 
 function drawBairplane3(x,y) {
     image(img6,x-img6.width/2,y-img6.height/2);
+}
+function drawBairplane4(x,y) {
+    image(img4,x-img4.width/2,y-img4.height/2);
 }
 
 function word(){
