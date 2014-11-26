@@ -57,13 +57,13 @@ function draw()
 
     //적 비행기
 
-    drawBairplane(80,count*0.2);
+    drawBairplane(80,count);
     count=count+1;
     if(count>900){
         count=0;
     }
     //적 비행기2
-    drawBairplane2(650,count2*0.4);
+    drawBairplane2(650,count2*2);
     count2=count2+1;
     if(count2>900){
         count2=0;
