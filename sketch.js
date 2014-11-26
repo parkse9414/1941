@@ -98,17 +98,17 @@ function draw()
         if(c[i]>0){
             c[i]+=5;
             ellipse(bX[i],bY[i]-c[i],10,20);
-            if(dist(80,count,bX[i],bY[i]-c[i])<100){
+            if(dist(80,count*3,bX[i],bY[i]-c[i])<100){
                 count =-500;
                 c[i]=0;
                 score +=20;
             }
-            if(dist(650,count2*2,bX[i],bY[i]-c[i])<100){
+            if(dist(650,count2*5,bX[i],bY[i]-c[i])<100){
                 count2 =-500;
                 c[i]=0;
                 score +=30;
             }
-            if(dist(400,count3*0.8,bX[i],bY[i]-c[i])<100){
+            if(dist(400,count3*2,bX[i],bY[i]-c[i])<100){
 
                 count3 =-500;
                 c[i]=0;
