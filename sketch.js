@@ -32,7 +32,7 @@ function setup()
 function draw()
 {
     background(0);
-	background(img3,800,count*50);
+	background(img3,800,count*50,800,3000);
     count=count-3;
     if(count<-6*x){
      count=0;
