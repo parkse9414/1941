@@ -48,11 +48,7 @@ function draw()
     if(count4>900){
         count4=0;
     }
-    drawCrowd(400,count5);
-    count5=count5+1;
-    if(count5>900){
-        count5=0;
-    }
+  
 
 
     
@@ -172,9 +168,6 @@ function mouseClicked(){
     bID++;
     if(bID >= bn){
         bID = 0;
-    }
-    function drawCrowd(x,y){
-        image(img7,x-img7.width/2,y-img7.height/2);
     }
 
 }
