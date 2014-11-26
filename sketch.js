@@ -109,9 +109,9 @@ function draw()
     ellipse(400,count3*0.8,200,200);
     word();
     word2();
-    drawG();
-    drawP();
-    
+    drawGa();
+    drawPa();
+
     fill(255,255,0);
     for(var i = 0 ; i < bn ; i++){
 
@@ -201,10 +201,10 @@ function mouseClicked(){
     }
 
 }
-function drawG(){
+function drawGa(){
     image(img8,x-img8.width/2,y-img8.height/2);
 }
-function drawP(){
+function drawPa(){
     image(img9,x-img9.width/2,y-img9.height/2);
 }
 
