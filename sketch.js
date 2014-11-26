@@ -34,11 +34,12 @@ function draw()
 {
     background(0);
 
-    background(img3,400,count4*2,800,900);
-    count4=count4+1;
+    background(img3);
+    rect(0,count4+3,30,300);
+    count4=count4+3;
     if(count4>100){
         count4=0;
-        
+
 
     }
 
