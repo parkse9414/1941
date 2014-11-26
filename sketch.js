@@ -50,7 +50,11 @@ function draw()
     if(count4>900){
         count4=0;
     }
-  
+    drawCroud(400,count6);
+    count6=count6+1;
+    if(count6>900){
+        count6=0;
+    }
 
 
     
@@ -162,6 +166,9 @@ function drawBairplane3(x,y) {
 }
 function drawBairplane4(x,y) {
     image(img4,x-img4.width/2,y-img4.height/2);
+}
+function drawCroud(x,y){
+    image(img7,x-img7.width/2,y-img7.height/2);
 }
 
 function word(){
