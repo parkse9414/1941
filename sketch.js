@@ -111,6 +111,7 @@ function draw()
     word2();
     drawG();
     drawP();
+    
     fill(255,255,0);
     for(var i = 0 ; i < bn ; i++){
 
@@ -201,10 +202,10 @@ function mouseClicked(){
 
 }
 function drawG(){
-    image(img8,10,870);
+    image(img8,x-img8.width/2,y-img8.height/2);
 }
 function drawP(){
-    image(img9,10,70);
+    image(img9,x-img9.width/2,y-img9.height/2);
 }
 
 
