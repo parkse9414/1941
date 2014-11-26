@@ -70,10 +70,13 @@ function draw()
     if(count3>900){
     count3=0;
     }
+    noStroke();
     noFill();
     ellipse(80,count,200,200);
+    noStroke();
     noFill();
     ellipse(650,count2*2,200,200);
+    noStroke();
     noFill();
     ellipse(400,count3*0.8,200,200);
     word();
