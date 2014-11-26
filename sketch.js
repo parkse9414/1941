@@ -30,7 +30,7 @@ function setup()
     img6 = loadImage("Bairplane3.png");
     img7 = loadImage("crowd.png");
     img8 = loadImage("g.png");
-    img9 = loadImage("1p.png");
+    img9 = loadImage("11p.png");
     count=0;
     count2=0;
     count3=0;
