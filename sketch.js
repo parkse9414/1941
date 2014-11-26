@@ -97,7 +97,7 @@ function draw()
 
         if(c[i]>0){
             c[i]+=5;
-            ellipse(bX[i],bY[i]-c[i],20,40);
+            ellipse(bX[i],bY[i]-c[i],15,30);
             if(dist(80,count,bX[i],bY[i]-c[i])<100){
                 count =-500;
                 c[i]=0;
