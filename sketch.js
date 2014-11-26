@@ -29,6 +29,8 @@ function setup()
     img5 = loadImage("Bairplane2.png");
     img6 = loadImage("Bairplane3.png");
     img7 = loadImage("crowd.png");
+    img8 = loadImage("g.png");
+
     count=0;
     count2=0;
     count3=0;
@@ -199,7 +201,7 @@ function mouseClicked(){
 
 }
 function drawG(){
-    image(img8,x-img7.width/2,870);
+    image(img8,x-img8.width/2,870);
 }
 
 function dist(bx,by,ex,ey){
