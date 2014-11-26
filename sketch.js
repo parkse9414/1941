@@ -24,6 +24,7 @@ function setup()
     count=0;
     count2=0;
     count3=0;
+    count4=0;
     for(var  i = 0 ; i < bn ; i++){
         c[i]=0;
     }
@@ -32,13 +33,13 @@ function setup()
 function draw()
 {
     background(0);
-     
-	background(img3,400,count4*2,800,900);
+
+    background(img3,400,count4*2,800,900);
     count4=count4+1;
     if(count4>100){
         count4=0;
-    
- }
+
+    }
 
 
     //비행기
@@ -48,27 +49,27 @@ function draw()
     var duration = 4500;
     var timing = (new Date()%duration)/duration;
     image(img2, mouseX + Math.cos(timing*4*PI)*100 - 15, 
-    mouseY + Math.sin(timing*4*PI)*100 - 14)
+        mouseY + Math.sin(timing*4*PI)*100 - 14)
 
     //적 비행기
 
     drawBairplane(80,count);
     count=count+1;
     if(count>900){
-    count=0;
+        count=0;
     }
     //적 비행기2
     drawBairplane2(650,count2*2);
     count2=count2+1;
     if(count2>900){
-    count2=0;
+        count2=0;
     }
 
     //적 비행기3
     drawBairplane3(400,count3*0.8);
     count3=count3+1;
     if(count3>900){
-    count3=0;
+        count3=0;
     }
     noStroke();
     noFill();
@@ -121,7 +122,7 @@ function drawBairplane(x,y) {
 }
 
 function drawBairplane2(x,y) {
- image(img5,x-img5.width/2,y-img5.height/2);
+   image(img5,x-img5.width/2,y-img5.height/2);
 }
 
 function drawBairplane3(x,y) {
