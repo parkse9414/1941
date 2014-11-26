@@ -35,11 +35,12 @@ function draw()
     /*background(0);
 
     background(img3);*/
-    fill(0);
-    rect(img3,0,count4*50,30,300);
-    count4=count4+3;
-    if(count4>900){
-        count4=0;
+    drawBackground(80,count4);
+    count=count+1;
+    if(count>900){
+        count=0;
+    }
+   
 
 
     }
@@ -117,6 +118,10 @@ function draw()
     }
 
     console.log("Score:"+score);
+}
+function drawBackground(x,y){
+    background(img3,x-img3.width/2,y-img3.height/2);
+
 }
 
 
