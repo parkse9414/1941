@@ -179,7 +179,7 @@ function word(){
     fill(0);
     textSize(36);
     textFont("Helvetica");
-    text(+score, 150, 40);
+    text(+score, 100, 40);
 }
 
 function word2(){
