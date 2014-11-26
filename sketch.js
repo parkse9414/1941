@@ -179,14 +179,14 @@ function word(){
     fill(255,255,0);
     textSize(36);
     textFont("Helvetica");
-    text(+score, 100, 70);
+    text(+score, 100, 60);
 }
 
 function word2(){
     fill(255,255,0);
     textSize(30);
     textFont("Helvetica");
-    text("CREDIT:8", 600, 820);
+    text("CREDIT:8", 600, 850);
 }
 
 function mouseClicked(){
