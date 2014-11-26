@@ -16,7 +16,7 @@ function setup()
     createCanvas(800,900);
     img = loadImage("airplane.png");  
     img2 = loadImage("shield.png");
-    img3 = loadImage("bg.png");
+    img3 = loadImage("bg2.png");
     img4 = loadImage("Bairplane1.png");
     img5 = loadImage("Bairplane2.png");
     img6 = loadImage("Bairplane3.png");
