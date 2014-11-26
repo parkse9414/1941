@@ -179,7 +179,7 @@ function word(){
     fill(0);
     textSize(36);
     textFont("Helvetica");
-    text(+score, 200, 40);
+    text(+score, 150, 40);
 }
 
 function word2(){
@@ -202,7 +202,7 @@ function mouseClicked(){
 
 }
 function drawGa(){
-    image(img8,10,800);
+    image(img8,10,820);
 }
 function drawPa(){
     image(img9,10,10);
