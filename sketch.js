@@ -11,6 +11,7 @@ var bID = 0;
 var c=[];
 var bX=[];
 var bY=[];
+var count=0;
 function setup()
 {
     createCanvas(800,900);
@@ -31,7 +32,11 @@ function setup()
 function draw()
 {
     background(0);
-	background(img3);
+	background(img3,800,count*50);
+    count=count-3;
+    if(count<-6*x){
+     count=0;
+ }
 
 
     //비행기
