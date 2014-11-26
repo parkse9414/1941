@@ -3,6 +3,7 @@ var img3;
 var count;
 var count2;
 var count3;
+var count4;
 
 var score=0;
 
@@ -11,7 +12,6 @@ var bID = 0;
 var c=[];
 var bX=[];
 var bY=[];
-var count=0;
 function setup()
 {
     createCanvas(800,900);
@@ -32,10 +32,10 @@ function setup()
 function draw()
 {
     background(0);
-	background(img3,800,count*50,800,3000);
-    count=count-3;
-    if(count<-6*x){
-     count=0;
+	background(img3,800,count4*50,800,3000);
+    count4=count4-3;
+    if(count4<-6*x){
+     count4=0;
  }
 
 
