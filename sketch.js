@@ -3,7 +3,7 @@ var img3;
 var count;
 var count2;
 var count3;
-var count4=0;
+var count4;
 
 var score=0;
 
@@ -36,9 +36,9 @@ function draw()
 
     background(img3);*/
     drawBackground(80,count4);
-    count=count+1;
-    if(count>900){
-        count=0;
+    count4=count4+1;
+    if(count4>900){
+        count4=0;
     }
    
 
