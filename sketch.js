@@ -120,7 +120,7 @@ function draw()
     console.log("Score:"+score);
 }
 function drawBackground(x,y){
-    image(img3,x-img3.width/2,y-img3.height/2);
+    image(img3,x-img3.width/2,y-img3.height/2,100,100);
 
 }
 
