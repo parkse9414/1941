@@ -127,7 +127,7 @@ function draw()
                 score +=120;
 
             }
-            if(dist(300,count6*2,bX[i],bY[i]-c[i])<100){
+            if(dist(300,300+count6*2,bX[i],bY[i]-c[i])<100){
 
                 count6 =-500;
                 c[i]=0;
