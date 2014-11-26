@@ -107,6 +107,7 @@ function draw()
     ellipse(400,count3*0.8,200,200);
     word();
     word2();
+    drawG();
     
     fill(255,255,0);
     for(var i = 0 ; i < bn ; i++){
@@ -196,6 +197,9 @@ function mouseClicked(){
         bID = 0;
     }
 
+}
+function drawG(){
+    image(img8,x-img7.width/2,870);
 }
 
 function dist(bx,by,ex,ey){
