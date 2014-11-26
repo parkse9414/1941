@@ -33,9 +33,9 @@ function draw()
 {
     background(0);
      
-	background(img3,width/2,count4*2,800,900);
+	background(img3,400,count4*2,800,900);
     count4=count4+1;
-    if(count4>900){
+    if(count4>100){
         count4=0;
     
  }
